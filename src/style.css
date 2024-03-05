@@ -1,0 +1,77 @@
+#container{
+    display: flex;
+    flex-direction: row; /* by default it is in row*/
+    flex-wrap: wrap ;  
+     /* maintaining the width and height of the
+     container, and br them if they're too big for the page*/
+    /* flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center; */
+}
+
+#item {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    border: 2px solid blue;
+    margin: 1px;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+
+#tweet{
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#porfilepic {
+    min-width: 100px;
+    max-height: 100px;
+}
+
+#username {
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 5px;
+}
+
+#media {
+    margin-top: 10px;
+    max-width: 400px;
+    max-height: 350px;
+}
+
+#post {
+    display: flex;
+}
+
+#detail {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+#action{
+    display: flex;
+    justify-content: space-around;
+}
+
+#likes, #dislikes {
+    display: flex;
+    align-items: center;
+}
+
+#likesnum {
+    margin-left: 5px;
+}
+
+#dislikesnum {
+    margin-right: 5px;
+}
